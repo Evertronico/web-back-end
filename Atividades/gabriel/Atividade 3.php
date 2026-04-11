@@ -10,7 +10,7 @@ if ($totalPedido > 500) {
 }
 
 if ($isVip) {
-    $taxaDesconto += 0.05;
+    $taxaDesconto += 0.05;          
 }
 
 $valorDoDesconto = $totalPedido * $taxaDesconto;
